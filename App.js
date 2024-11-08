@@ -226,34 +226,34 @@
 // export default Exercise3;
 
 // #################EXCERCISE 4#################
-import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
-
-const styles = StyleSheet.create({
-    Parent: {
-        flex: 1,
-        flexDirection: 'row',
-        justifyContent: 'space-evenly',
-        alignItems: 'center',
-        backgroundColor: 'whitesmoke',
-        marginBottom: 30
-    },
-    Child: {
-        width: 80,
-        height: 80,
-        textAlignVertical: 'center',
-        textAlign: 'center',
-    }
-});
-
-const Exercise4 = () => {
-    return (
-        <View style={styles.Parent}>
-            <Text style={[styles.Child, {backgroundColor: 'skyblue'}]}>Square 1</Text>
-            <Text style={[styles.Child, {backgroundColor: 'aquamarine'}]}>Square 2</Text>
-            <Text style={[styles.Child, {backgroundColor: 'red'}]}>Square 3</Text>
-        </View>
-    )
-}
-
-export default Exercise4;
+// import React from 'react';
+// import {View, Text, StyleSheet} from 'react-native';
+//
+// const styles = StyleSheet.create({
+//     Parent: {
+//         flex: 1,
+//         flexDirection: 'row',
+//         justifyContent: 'space-evenly',
+//         alignItems: 'center',
+//         backgroundColor: 'whitesmoke',
+//         marginBottom: 30
+//     },
+//     Child: {
+//         width: 80,
+//         height: 80,
+//         textAlignVertical: 'center',
+//         textAlign: 'center',
+//     }
+// });
+//
+// const Exercise4 = () => {
+//     return (
+//         <View style={styles.Parent}>
+//             <Text style={[styles.Child, {backgroundColor: 'skyblue'}]}>Square 1</Text>
+//             <Text style={[styles.Child, {backgroundColor: 'aquamarine'}]}>Square 2</Text>
+//             <Text style={[styles.Child, {backgroundColor: 'red'}]}>Square 3</Text>
+//         </View>
+//     )
+// }
+//
+// export default Exercise4;
